@@ -32,7 +32,7 @@ fn main() {
     }
 
     if numbers.len() == 0 {
-        eprintln!("Usage: gcd NUMBER ...");
+        eprintln!("Usage: cargo run <NUM1> <NUM2>");
         std::process::exit(1);
     }
 
